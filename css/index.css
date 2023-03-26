@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header li {
+  padding-top: 1rem;
+  margin: auto 1rem;
+  align-items: baseline;
+}
+.header .header-right {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.header .header-left {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header button {
+  background-color: rgb(62, 134, 250);
+  color: white;
+  border: none;
+  width: 70px;
+  height: 30px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+.header button:hover {
+  cursor: pointer;
+}
+.header button:active {
+  cursor: pointer;
+  background-color: rgb(105, 155, 237);
+}
+
+main {
+  text-align: center;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google-logo {
+  width: 20rem;
+  height: 8rem;
+}
+.search-bar {
+  display: flex;
+  border: 1px solid rgb(162, 161, 161);
+  border-radius: 50px;
+  width: 35rem;
+  height: 3rem;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-solid {
+  color: rgb(218, 216, 214);
+  font-size: larger;
+  position: relative;
+  left: 1rem;
+}
+.fa-solid:hover {
+  cursor: pointer;
+}
+.fa-solid:active {
+  cursor: pointer;
+  color: rgb(118, 117, 117);
+}
+.search-bar input {
+  font-size: large;
+  margin-left: 1rem;
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.mic {
+  margin-right: 1rem;
+}
+.main-button button {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  border: none;
+  color: rgb(103, 103, 103);
+  border-radius: 10px;
+}
+.main-button button:hover {
+  cursor: pointer;
+}
+.main-button button:active {
+  cursor: pointer;
+  background-color: rgb(222, 219, 219);
+}
+.mainp {
+  margin-top: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 11rem;
+  /* bottom: 1rem; */
+}
+.footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.bottom li {
+  display: inline-block;
+  padding-top: 1rem;
+  margin: auto 1rem;
+  align-items: baseline;
+  list-style: none;
+}
